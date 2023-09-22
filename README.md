@@ -23,4 +23,4 @@ CSS flight school :airplane: :sunglasses:
 Simple demo to practice CSS animations. 
 Created by using four identical icons and using keyframes to hide/show.
 
-![](https://github.com/edwadewards/demos/readme-imgs/blob/main/plane-animation.gif)
+![](https://github.com/edwadewards/demos/tree/main/readme-imgs/plane-animation.gif)
