@@ -1,0 +1,98 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(57, 122, 212);
+  height: 100vh;
+  width: 100%;
+}
+
+.plane-anim {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.plane-anim i {
+  color: white;
+  padding: .45rem;
+  font-size: 1.2rem;
+}
+
+.one {
+  position: absolute;
+  top: 0;
+  left:0;
+  animation: flight-path-one 16s linear infinite;
+}
+
+.two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  transform: rotate(90deg);
+  animation: flight-path-two 16s 4s linear infinite;
+}
+
+.three {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  transform: rotate(180deg);
+  animation: flight-path-three 16s 8s linear infinite;
+}
+
+.four {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  transform: rotate(-90deg);
+  animation: flight-path-four 16s 12s linear infinite;
+}
+
+
+@keyframes flight-path-one {
+  0% {
+    left:0;
+  }
+  25%, 100% {
+    left: calc(100% - 2.5rem); 
+    visibility: hidden;
+  }
+}
+  
+ @keyframes flight-path-two {
+    0% {
+      visibility: visible;
+    }
+    25%, 100% {
+      top: calc(100vh - 2.5rem);
+      visibility: hidden;
+    }
+  }
+
+@keyframes flight-path-three {
+  0% {
+    visibility: visible;
+  }
+  25%, 100% {
+    right: calc(100% - 2.5rem);
+    visibility: hidden;
+  }
+}
+
+@keyframes flight-path-four {
+  0% {
+    visibility: visible;
+  }
+  25%, 100% {
+    bottom: calc(100vh - 2.5rem);
+    visibility: hidden;
+  }
+}
