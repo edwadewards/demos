@@ -13,8 +13,7 @@ GSAP could also be used to give it some extra flash.
 
 :link: [view live on codepen](https://codepen.io/edwadewards/pen/zYMEGbB)
 
-![](https://github.com/edwadewards/demos/tab%20layout%20demo/img/blob/main/tab-demo.png)
-![](https://github.com/edwadewards/tab-layout-demo/blob/main/tab-demo.gif)
+![](https://github.com/edwadewards/demos/readme-imgs/blob/main/tab-demo.gif)
 
 
 
@@ -24,4 +23,4 @@ CSS flight school :airplane: :sunglasses:
 Simple demo to practice CSS animations. 
 Created by using four identical icons and using keyframes to hide/show.
 
-![](https://github.com/edwadewards/css-plane-animation/blob/main/plane-animation.gif)
+![](https://github.com/edwadewards/demos/readme-imgs/blob/main/plane-animation.gif)
