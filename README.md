@@ -13,7 +13,7 @@ GSAP could also be used to give it some extra flash.
 
 :link: [view live on codepen](https://codepen.io/edwadewards/pen/zYMEGbB)
 
-![](https://github.com/edwadewards/demos/tab-layout-demo/blob/main/tab-demo.png)
+![](https://github.com/edwadewards/demos/tab-layout-demo/img/blob/main/tab-demo.png)
 ![](https://github.com/edwadewards/tab-layout-demo/blob/main/tab-demo.gif)
 
 
